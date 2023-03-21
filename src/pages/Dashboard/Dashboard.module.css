@@ -55,15 +55,6 @@
     color: #fafafa;
 }
 
-/*.post_row a,.post_row button{
-    margin: 0 5px;
-    height: 30px;
-    width: 100px;
-    font-size: .7em;
-    border-color: #C60DFF;
-    padding: 10px 15px;
-
-}*/
 
 .btn{
     margin: 0 5px;
@@ -98,4 +89,26 @@
 
 .btn_red:hover{
     background-color: #dc3545;
+}
+
+@media(max-width:768px){
+
+    .post_header{
+        width: 93%;
+    }
+    .post_row{
+        width: 93%;
+        flex: 1;
+    }
+    .btn, .btn_red{
+        padding: 8px 12px;
+        font-size: .7rem;
+        flex-wrap: nowrap;
+    }
+
+    .post_row p{
+        font-size: .9rem;
+        text-align: left;
+    }
+    
 }
