@@ -1,0 +1,29 @@
+.edit_post{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.edit_post h2{
+    font-size: 1.2em;
+    color: #fafafa;
+}
+
+.edit_post p{
+    color: #aaa;
+    margin-bottom: 2em;
+}
+
+.edit_post form{
+    color: #fafafa;
+}
+
+.edit_post .preview_title{
+    margin-bottom: .2em;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.image_preview{
+    max-width: 50%;
+    margin-bottom: 1em;
+}

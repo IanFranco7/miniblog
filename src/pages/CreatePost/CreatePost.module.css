@@ -1,0 +1,18 @@
+.createPost{
+    text-align: center;
+}
+
+.createPost h2{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.createPost p{
+    color: #aaa;
+    margin-bottom: 2em;
+}
+
+.createPost form{
+    color: #fff;
+    margin-bottom: 2rem;
+}

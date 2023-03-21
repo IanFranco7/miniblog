@@ -1,0 +1,55 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home h1{
+    color: #fff;
+}
+
+.search_form{
+    max-width: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.search_form input{
+    margin-right: 10px;
+    width: 50%;
+}
+
+.noposts{
+    text-align: center;
+}
+
+.noposts p{
+    margin-bottom: 1.5em;
+}
+
+.noposts a{
+    padding: 10px w5px;
+}
+
+.btn{
+  border: 1px solid #DE0DFF;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 120px;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 1em;
+}
+
+.btn:hover{
+    background-color: #DE0DFF;
+    box-shadow: 0 0 5px #C60DFF,
+    0 0 25px #C60DFF,
+    0 0 50px #C60DFF,
+    0 0 100px #C60DFF
+}

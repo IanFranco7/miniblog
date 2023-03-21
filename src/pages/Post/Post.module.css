@@ -1,0 +1,28 @@
+.post_container{
+    text-align: center;
+    
+}
+
+.post_container h1, .post_container p{
+    color: #fafafa;
+}
+
+.post_container h3{
+    margin-bottom: .2em;
+    color: #fafafa;
+}
+
+.post_container .tags{
+    display: flex;
+    justify-content: center;
+}
+
+.tags p{
+    margin-right: 1em;
+    color: #bcc;
+}
+
+.tags span{
+    font-weight: bold;
+    color: #bcc;
+}

@@ -1,0 +1,38 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.39) 0 -2px 10px ;
+    background-color: #3e3f3e;
+}
+
+
+.brand{
+    font-size: 1.2em;
+}
+
+.brand span{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.links_list{
+    display: flex;
+    list-style: none;
+}
+
+.links_list li {
+    margin-left: 10px;
+}
+
+.links_list li a{
+    padding: .4em .6em;
+}
+
+.active{
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+}
