@@ -1,7 +1,7 @@
 .register{
     text-align: center;
     background-color: #000;
-    min-height: 85vh;
+    height: 100vh;
 }
 
 .register h1{
@@ -17,6 +17,7 @@
     margin-top: 0;
     user-select: none;
 }
+
 .formulario form{
     margin-top: 2rem;
     padding: 10px 15px;
@@ -41,7 +42,6 @@
     font-weight: bold;
     padding: 10px 15px;
     font-size: 1em;
-    
 }
 
 .btn:hover{
@@ -134,4 +134,28 @@
 .btn[disabled]{
     background-color: #aaa;
     box-shadow: none;
+  }
+ 
+
+  @media(max-width: 768px){
+    .register{
+      border: 1px solid yellow;
+    }
+
+    .register h1{
+      font-size: 1.3em;
+      margin-bottom: 1rem;
+    }
+
+    .register p{
+      display: none;
+    }
+
+    .formulario form{
+      width: 100vw;
+      margin-bottom: 2rem;
+
+    }
+
+    
   }

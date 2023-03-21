@@ -8,6 +8,9 @@ nav{
     background-color: #3e3f3e;
 }
 
+.toggle{
+    display: none;
+}
 
 .brand{
     font-size: 1.2em;
@@ -35,4 +38,48 @@ nav{
     background-color: #000;
     color: #fff;
     border-radius: 7px;
+}
+
+
+.mobile_menu_icon{
+    display: none;
+}
+
+
+@media(max-width: 768px){
+    .links_list{
+        display: none;
+        flex-direction: column;
+    }
+
+    .responsive_list {  
+        display: block;
+        position: absolute;
+        top: 4.5vh;
+        right: 0;
+        width: 100vw;
+        background-color: #23232e;
+    }
+    
+    .responsive_list li{
+        list-style: none;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .mobile_menu_icon{
+        padding: 10px;
+       
+        display: block;
+    }
+
+   i{
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+   }
+    
 }
