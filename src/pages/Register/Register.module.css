@@ -1,6 +1,7 @@
 .register{
     text-align: center;
     background-color: #000;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -139,7 +140,6 @@
 
   @media(max-width: 768px){
     .register{
-      border: 1px solid yellow;
     }
 
     .register h1{
@@ -151,8 +151,12 @@
       display: none;
     }
 
-    .formulario form{
+    .formulario{
       width: 100vw;
+    }
+
+    .formulario form{
+      min-width: 65%;
       margin-bottom: 2rem;
 
     }

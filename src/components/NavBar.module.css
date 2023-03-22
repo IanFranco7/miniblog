@@ -59,6 +59,7 @@ nav{
         right: 0;
         width: 100vw;
         background-color: #23232e;
+        padding: 0;
     }
     
     .responsive_list li{
@@ -70,6 +71,7 @@ nav{
         transition: all 0.5s ease;
     }
 
+   
     .mobile_menu_icon{
         padding: 10px;
        

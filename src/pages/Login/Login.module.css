@@ -140,3 +140,14 @@
     color: #aaa;
     display: block;
 }
+
+@media(max-width: 768px) {
+  
+  .formulario{
+    width: 100vw;
+  }
+  .formulario form{
+    min-width: 65%;
+    margin-bottom: 2rem;
+  }
+}
