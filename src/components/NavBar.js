@@ -16,7 +16,7 @@ const NavBar = () => {
 
     return (
         <nav>
-            <NavLink to="/" className={styles.brand}>Mini <span>Blog</span></NavLink>
+            <NavLink to="/" className={styles.brand}>Post <span>NOW</span></NavLink>
             <ul className={isMobile ? styles.responsive_list: styles.links_list }
             onClick={() => setIsMobile(false)}>
                 <li>

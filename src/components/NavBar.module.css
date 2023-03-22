@@ -55,7 +55,7 @@ nav{
     .responsive_list {  
         display: block;
         position: absolute;
-        top: 4.5vh;
+        top: 5.5vh;
         right: 0;
         width: 100vw;
         background-color: #23232e;
@@ -79,9 +79,7 @@ nav{
     }
 
    i{
-    position: relative;
-    z-index: 2;
-    padding: 5px;
+    font-size: 1.57rem;
    }
     
 }
