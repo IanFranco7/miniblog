@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+Post now é um mini blog moderno, permitindo você criar e compartilhar o seu conteúdo com facilidade, você também pode explorar o conteúdo de outras pessoas, e pesquisar por categorias específicas.
+
+O sistema é feito em React, juntamente com o banco de dados do Google, o firebase oferecendo recursos avançados como a autenticação no sistema, criação de rotas protegidas, salvar usuários na nuvem, resgate de dados e dentre outros.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
