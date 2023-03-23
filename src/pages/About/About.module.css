@@ -19,3 +19,9 @@
     margin-top: 15px;
     padding: 10px 15px;
 }
+
+@media(max-width:768px){
+    .about{
+        padding: 1px 8px;
+    }
+}
