@@ -1,74 +1,49 @@
-# Getting Started with Create React App
+# Mini Blog
 
-Post now é um mini blog moderno, permitindo você criar e compartilhar o seu conteúdo com facilidade, você também pode explorar o conteúdo de outras pessoas, e pesquisar por categorias específicas.
+# Sobre o projeto
 
-O sistema é feito em React, juntamente com o banco de dados do Google, o firebase oferecendo recursos avançados como a autenticação no sistema, criação de rotas protegidas, salvar usuários na nuvem, resgate de dados e dentre outros.
+Post now é um mini blog moderno, permitindo você criar e compartilhar o seu conteúdo com facilidade, você também pode explorar o conteúdo de outras pessoas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O sistema é feito com React no front-end, para isso foram utilizados: Hooks, Context API, React Router, dentre outros. E para o back-end utilizei o firebase, banco de dados do google, construindo recursos avançados como a autenticação no sistema, criação de rotas protegidas, salvar usuários na nuvem e dentre outros, usando comandos SQL para a construção das funcionalidades.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- React(Hooks, Context API, React Router)
+- Firebase(Autenticação e SQL)
+- JSX
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tela de login
+![](https://raw.githubusercontent.com/IanFranco7/Caixa-de-som/main/assets/login.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tela inicial
+![](https://raw.githubusercontent.com/IanFranco7/Caixa-de-som/main/assets/home.png)
 
-### `npm test`
+## Tela da Dashboard(só é possivel acessar se o usuário estiver logado)
+![](https://raw.githubusercontent.com/IanFranco7/Caixa-de-som/main/assets/dashboard.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Executando o projeto
 
-### `npm run build`
+Comece clonando o repositório para sua máquina, usando
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``` 
+$ git clone https://github.com/IanFranco7/miniblog
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Após isso, vá até a pasta do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` 
+cd miniblog
+```
 
-### `npm run eject`
+Instale todas as dependências
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+``` 
+$ npm i
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Por fim inicialize o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+``` 
+npm start
+```
