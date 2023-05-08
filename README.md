@@ -2,6 +2,8 @@
 
 # Sobre o projeto
 
+## Link para acessar : https://miniblog-mauve.vercel.app/
+
 Post now é um mini blog moderno, permitindo você criar e compartilhar o seu conteúdo com facilidade, você também pode explorar o conteúdo de outras pessoas.
 
 O sistema é feito com React no front-end, para isso foram utilizados: Hooks, Context API, React Router, dentre outros. E para o back-end utilizei o firebase, banco de dados do google, construindo recursos avançados como a autenticação no sistema, criação de rotas protegidas, salvar usuários na nuvem e dentre outros, usando comandos SQL para a construção das funcionalidades.
